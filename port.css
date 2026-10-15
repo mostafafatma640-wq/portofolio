@@ -1,0 +1,101 @@
+body{
+    background-color: #f8f9fa;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(180deg, #dc9eb0 0%, #472a30 100%);
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+.my-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    transition: 0.3s;
+}
+
+/* الهوفر بتاع صورتك */
+.my-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.card{
+    border-radius: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* الهوفر بتاع كروت المشاريع */
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+.contact-link{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contact-link:hover{
+    color: #518be1 !important;
+    transform: scale(1.05);
+}
+
+    .my-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  color: #a44e89;
+  letter-spacing: 1px;
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+   margin-bottom: 15px;
+}
+
+.btn-whatsapp:hover {
+  background-color: #128C7E;
+  margin-bottom: 15px;
+   transform: scale(1.05);
+}
+/* تلوين أزرار المهارات */
+.row.mt-3 .col-4:nth-child(1) .card {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.row.mt-3 .col-4:nth-child(2) .card {
+  background-color: #4d96ff;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.row.mt-3 .col-4:nth-child(3) .card {
+  background-color: #6bcb77;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+/* حركة لما تحطي الماوس */
+.row.mt-3 .card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
